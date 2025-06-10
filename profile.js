@@ -7,7 +7,7 @@ async function loadPhotographerProfile() {
     const id = getPhotographerIdFromUrl();
 
    try {
-const response = await fetch("https://photographers-v5ak.onrender.com/photographers");
+const response = await fetch("https://run.mocky.io/v3/cdd6d821-6fb7-43c3-a834-ec3f6534ea51/photographers");
 const data = await response.json();
 const photographer = data.find(p => p.id === id);
 
