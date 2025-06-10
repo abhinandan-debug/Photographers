@@ -29,6 +29,7 @@ body {
     font-size: 14px;
     overflow-y: auto; 
     z-index: 100; 
+}
 
 .sidebar h2 {
     margin-top: 0;
@@ -61,6 +62,7 @@ body {
     margin-top: -5px;
     color: #333;
 }
+
 
 /* Main content container */
 .container {
@@ -208,6 +210,8 @@ body {
         grid-template-columns: 1fr; 
     }
 }
+
+
 /* Profile Page */
 .profile-container {
     max-width: 800px;
