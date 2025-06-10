@@ -15,12 +15,15 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchData() {
-  fetch("https://run.mocky.io/v3/cdd6d821-6fb7-43c3-a834-ec3f6534ea51")
+  fetch("https://run.mocky.io/v3/47fc1868-cf16-470d-a66e-ae40b15da070")
     .then(res => res.json())
     .then(data => {
-      photographers = data.photographers; // data is likely an array of photographers
-      applyFilters();
-    });
+      photographers = data.photographers;
+      applyFilters();       
+    })
+    .catch(err => {
+      console.error("Failed to fetch data:",error);});
+}
 
 function applyFilters() {
   const query = document.getElementById("searchInput").value.toLowerCase();
