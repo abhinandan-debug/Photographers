@@ -1,0 +1,204 @@
+{
+  "photographers": [
+    {
+      "id": 1,
+      "name": "Ravi Studio",
+      "location": "Bengaluru",
+      "price": 10000,
+      "rating": 4.6,
+      "styles": ["Outdoor", "Studio"],
+      "tags": ["Candid", "Maternity"],
+      "bio": "Award-winning studio specializing in maternity and newborn shoots.",
+      "profilePic": "https://media.istockphoto.com/id/2178474778/photo/smiling-photographer-holding-up-camera-at-times-square-new-york-city.webp?a=1&b=1&s=612x612&w=0&k=20&c=3EX6HtE0M9siP8BM9CPgrgyGvXoDhyOQDkbbqy21LCU=",
+      "portfolio": ["https://i.pinimg.com/736x/72/5e/ab/725eabefda8c12bace86e62d2ddc99d0.jpg", "https://i.pinimg.com/736x/58/27/d4/5827d461cc924819a7f7b1fc1d80a439.jpg","https://i.pinimg.com/736x/7a/1c/23/7a1c239d25c24ef8c63a54334aa43bc2.jpg","https://i.pinimg.com/736x/6e/74/11/6e7411248c0d5ada47278342587bd2ca.jpg"],
+      "reviews": [
+        {
+          "name": "Ananya",
+          "rating": 5,
+          "comment": "Truly amazing photos and experience!",
+          "date": "2024-12-15"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lens Queen Photography",
+      "location": "Delhi",
+      "price": 15000,
+      "rating": 4.2,
+      "styles": ["Candid", "Indoor"],
+      "tags": ["Newborn", "Birthday"],
+      "bio": "Delhi-based candid specialist for kids and birthday parties.",
+      "profilePic": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fHww",
+      "portfolio": ["https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=600","https://images.pexels.com/photos/10609809/pexels-photo-10609809.jpeg?auto=compress&cs=tinysrgb&w=600","https://images.pexels.com/photos/9566447/pexels-photo-9566447.jpeg?auto=compress&cs=tinysrgb&w=600"],
+      "reviews": [
+        {
+          "name": "Priya",
+          "rating": 4,
+          "comment": "Very professional and punctual!",
+          "date": "2024-10-01"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Click Factory",
+      "location": "Mumbai",
+      "price": 8000,
+      "rating": 4.8,
+      "styles": ["Studio", "Outdoor", "Traditional"],
+      "tags": ["Wedding", "Pre-wedding"],
+      "bio": "Capturing timeless wedding stories across India.",
+      "profilePic": "https://images.unsplash.com/photo-1536584754829-12214d404f32?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAyfHxwaG90b2dyYXBoZXJ8ZW58MHx8MHx8fDA%3D",
+      "portfolio": ["https://img.freepik.com/free-photo/indian-man-mountains-male-traditional-turban-hinduist-with-mascot_1157-41093.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740", "https://img.freepik.com/free-photo/young-woman-beautiful-red-dress_1303-17503.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/premium-photo/happy-elderly-couple-sitting-autumn-nature_484921-12042.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/free-photo/woman-reserve-is-playing-with-kangaroo_1157-33612.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740"],
+      "reviews": [
+        {
+          "name": "Rahul",
+          "rating": 5,
+          "comment": "We loved every single moment they captured.",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Moments by Neha",
+      "location": "Bengaluru",
+      "price": 12000,
+      "rating": 4.3,
+      "styles": ["Outdoor", "Candid"],
+      "tags": ["Maternity", "Couple"],
+      "bio": "Natural light specialist focusing on emotional storytelling.",
+      "profilePic": "https://media.istockphoto.com/id/2154036949/photo/portrait-of-cheerful-young-woman-taking-photo-with-a-dslr-camera-isolated-on-green-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=4l9o4myN4jey-gL-jGcrYxivs3m_OXH5t0D4zR5gY4M=",
+      "portfolio": ["https://img.freepik.com/free-photo/outdoor-summer-lifestyle-portrait-pretty-young-woman-having-fun-city-photographer-making-pictures-hipster-style-glasses-hat_231208-9601.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740", "https://img.freepik.com/free-photo/pretty-young-african-woman-sitting-outdoors-park_171337-13776.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/premium-photo/couple-embraces-drum-with-man-wearing-scarf_1203138-184118.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/free-photo/shallow-focus-shot-young-attractive-male-posing-camera_181624-42193.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740"],
+      "reviews": [
+        {
+          "name": "Sneha",
+          "rating": 4.5,
+          "comment": "Captured our maternity journey so beautifully.",
+          "date": "2024-11-05"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Snapshot Studio",
+      "location": "Hyderabad",
+      "price": 7000,
+      "rating": 3.9,
+      "styles": ["Studio"],
+      "tags": ["Birthday", "Family"],
+      "bio": "Affordable indoor shoots with creative themes.",
+      "profilePic": "https://images.unsplash.com/photo-1499417267106-45cebb7187c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGhvdG9ncmFwaGVyfGVufDB8fDB8fHww",
+      "portfolio": ["https://img.freepik.com/free-photo/people-outdoors-garden-celebration-senior-birthday-party_23-2150657135.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740", "https://img.freepik.com/premium-photo/indian-asian-daughter-sitting-father-s-back-taking-ride-mother-watching_466689-24761.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/free-photo/elderly-people-celebrating-their-birthday_23-2150260971.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/premium-photo/portrait-indian-family-six-enjoying-picnic-morning-walk-multi-generation-asian-family-posing-walkway-park-outdoor-selective-focus_466689-45209.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740"],
+      "reviews": [
+        {
+          "name": "Vikram",
+          "rating": 3.5,
+          "comment": "Decent service, could improve on punctuality.",
+          "date": "2024-09-10"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Shutter Souls",
+      "location": "Delhi",
+      "price": 11000,
+      "rating": 4.5,
+      "styles": ["Candid", "Outdoor"],
+      "tags": ["Pre-wedding", "Couple"],
+      "bio": "Creative storytelling through candid lens, best for romantic shoots.",
+      "profilePic": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fHww",
+      "portfolio": ["https://img.freepik.com/free-photo/evening-summer-sun-makes-halo-around-beautiful-wedding-couple_8353-8057.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740", "https://img.freepik.com/premium-photo/bride-groom-are-hugging-background-lake-sunset_192420-4132.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/premium-photo/romantic-indian-couple-yellow_1113980-2546.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/free-photo/full-shot-happy-couple-with-flowers_23-2149956396.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740"],
+      "reviews": [
+        {
+          "name": "Aarti",
+          "rating": 5,
+          "comment": "Absolutely loved their composition and vibe!",
+          "date": "2025-02-10"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Pixel Park",
+      "location": "Mumbai",
+      "price": 9500,
+      "rating": 4.0,
+      "styles": ["Studio", "Indoor"],
+      "tags": ["Family", "Newborn"],
+      "bio": "Comfortable indoor setups perfect for baby and family portraits.",
+      "profilePic": "https://plus.unsplash.com/premium_photo-1663957821802-4969fe6a0347?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "portfolio": ["https://img.freepik.com/premium-photo/young-family-parents-with-newborn-baby-little-kid-hands-holding_116317-30508.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740", "https://img.freepik.com/free-photo/happy-couple-playing-with-baby-son-bed_74855-23742.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/premium-photo/indian-asian-daughter-sitting-father-s-back-taking-ride-mother-watching_466689-24761.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/premium-photo/young-parents-with-newborn-baby-hug-kiss-happy-mom-dad-admiring-baby-home-bed-happy-family-caring-small-child-place-text_267293-9654.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740"],
+      "reviews": [
+        {
+          "name": "Suman",
+          "rating": 4,
+          "comment": "Great lighting and props, very gentle with kids.",
+          "date": "2024-12-02"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Cine Snapshots",
+      "location": "Hyderabad",
+      "price": 13000,
+      "rating": 4.7,
+      "styles": ["Traditional", "Outdoor"],
+      "tags": ["Wedding", "Candid"],
+      "bio": "Expert in Gujarati wedding customs and high-end candid shoots.",
+      "profilePic": "https://images.unsplash.com/photo-1623348282113-50395974159c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "portfolio": ["https://img.freepik.com/free-photo/beautiful-student-couple-ready-from-prom_23-2149134332.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740", "https://img.freepik.com/premium-photo/indian-couple-traditional-modern-styles-cultural-romantic-photography_788415-7252.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/free-photo/beautiful-student-couple-ready-from-prom_23-2149134335.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/premium-photo/man-woman-are-looking-each-other-woman-is-wearing-sari_1113980-2258.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740"],
+      "reviews": [
+        {
+          "name": "Devang",
+          "rating": 5,
+          "comment": "Perfect shots from every ritual!",
+          "date": "2025-01-10"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Frame Focus",
+      "location": "Bengaluru",
+      "price": 10500,
+      "rating": 4.1,
+      "styles": ["Candid", "Studio"],
+      "tags": ["Birthday", "Couple"],
+      "bio": "Fun, colorful frames with modern editing styles.",
+      "profilePic": "https://images.unsplash.com/photo-1551737823-dfc8495904b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "portfolio": ["https://img.freepik.com/free-photo/casual-young-couple-enjoying-walk-along-tracks_23-2148215609.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740", "https://img.freepik.com/free-photo/romantic-couple-with-red-box_329181-19182.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/free-photo/couple-sitting-floor-with-balloons-hearts-stick_23-2148019286.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/free-photo/side-view-couple-celebrating-birthday_23-2150290557.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740"],
+      "reviews": [
+        {
+          "name": "Tanvi",
+          "rating": 4,
+          "comment": "Loved the colors and mood in every image.",
+          "date": "2025-03-05"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "The Light Box",
+      "location": "Delhi",
+      "price": 14000,
+      "rating": 4.4,
+      "styles": ["Outdoor", "Traditional"],
+      "tags": ["Wedding", "Maternity"],
+      "bio": "Jaipur-based team specializing in vibrant ethnic captures.",
+      "profilePic": "https://images.unsplash.com/photo-1492146433370-dea32142adc3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzl8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "portfolio": ["https://img.freepik.com/premium-photo/creative-photography-fotographiya-indian-wedding-fotographiya-groom-portrait-fotographiya-romant_1108565-50.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/free-photo/couple-handsome-husband-pretty-pragnant-woman-posing-studio_1328-1798.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/premium-photo/couple-is-kissing-tropical-garden_1113980-2203.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740","https://img.freepik.com/free-photo/pregnant-woman-looking-her-husband_23-2148252498.jpg?ga=GA1.1.1360172568.1749496443&semt=ais_items_boosted&w=740"],
+      "reviews": [
+        {
+          "name": "Kavita",
+          "rating": 4.5,
+          "comment": "Stunning visuals, especially at sunset!",
+          "date": "2024-11-28"
+        }
+      ]
+    }
+  ]
+}
