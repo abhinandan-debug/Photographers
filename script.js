@@ -15,13 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchData() {
-  fetch("https://photographers-v5ak.onrender.com/photos")
+  fetch("https://photographers-v5ak.onrender.com/photographers")
     .then(res => res.json())
     .then(data => {
       photographers = data; // data is likely an array of photographers
       applyFilters();
     });
-}
 
 function applyFilters() {
   const query = document.getElementById("searchInput").value.toLowerCase();
