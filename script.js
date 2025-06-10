@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchData() {
-  fetch("https://photographers-v5ak.onrender.com/photographers")
+  fetch("https://run.mocky.io/v3/cdd6d821-6fb7-43c3-a834-ec3f6534ea51/photographers")
     .then(res => res.json())
     .then(data => {
       photographers = data; // data is likely an array of photographers
