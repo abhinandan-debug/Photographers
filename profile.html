@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Photographer Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="profile-container">
+    <h1 id="photographerName">Photographer Name</h1>
+    <p id="photographerBio">Photographer bio goes here...</p>
+
+    <div class="tags" id="photographerStyles"></div>
+    <p id="photographerPrice">Price: ₹XXXX</p>
+
+    <h2>Gallery</h2>
+    <div class="gallery" id="galleryGrid"></div>
+
+    <h2>Reviews</h2>
+    <div id="reviewsList"></div>
+
+    <button class="inquiry-button" onclick="openInquiry()">Send Inquiry</button>
+  </div>
+
+  <div id="inquiryModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeInquiry()">&times;</span>
+      <h3>Send Inquiry</h3>
+      <form id="inquiryForm">
+        <input type="text" placeholder="Your Name" required /><br />
+        <input type="email" placeholder="Your Email" required /><br />
+        <textarea placeholder="Your Message" required></textarea><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
