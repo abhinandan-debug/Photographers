@@ -6,15 +6,15 @@ function getPhotographerIdFromUrl() {
 async function loadPhotographerProfile() {
     const id = getPhotographerIdFromUrl();
 
-    try {
-        const response = await fetch("https://photographers-v5ak.onrender.com");
-        const data = await response.json();
-        const photographer = data.photographers.find(p => p.id === id);
+   try {
+const response = await fetch("https://photographers-v5ak.onrender.com/photographers");
+const data = await response.json();
+const photographer = data.find(p => p.id === id);
 
-        if (!photographer) {
-            document.querySelector(".profile-container").innerHTML = "<p>Photographer not found.</p>";
-            return;
-        }
+if (!photographer) {
+document.querySelector(".profile-container").innerHTML = "<p>Photographer not found.</p>";
+return;
+}
 
         // Update text content
         document.getElementById("photographerName").textContent = photographer.name;
