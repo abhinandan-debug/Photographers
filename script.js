@@ -15,12 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchData() {
-fetch("https://photographers-v5ak.onrender.com")
-.then(res => res.json())
-.then(data => {
-photographers = data.photographers;
-applyFilters();
-});
+  fetch("https://photographers-v5ak.onrender.com/photos")
+    .then(res => res.json())
+    .then(data => {
+      photographers = data; // data is likely an array of photographers
+      applyFilters();
+    });
 }
 
 function applyFilters() {
