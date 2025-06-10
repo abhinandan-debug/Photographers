@@ -7,7 +7,7 @@ async function loadPhotographerProfile() {
     const id = getPhotographerIdFromUrl();
 
     try {
-        const response = await fetch("https://photographers-f0hv.onrender.com");
+        const response = await fetch("https://photographers-v5ak.onrender.com");
         const data = await response.json();
         const photographer = data.photographers.find(p => p.id === id);
 
