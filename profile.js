@@ -6,15 +6,15 @@ function getPhotographerIdFromUrl() {
 async function loadPhotographerProfile() {
     const id = getPhotographerIdFromUrl();
 
-   try {
-const response = await fetch("https://run.mocky.io/v3/47fc1868-cf16-470d-a66e-ae40b15da070");
-const data = await response.json();
-const photographer = data.photographers.find(p => p.id === id);
+    try {
+        const response = await fetch("https://run.mocky.io/v3/47fc1868-cf16-470d-a66e-ae40b15da070");
+        const data = await response.json();
+        const photographer = data.photographers.find(p => p.id === id);
 
-if (!photographer) {
-document.querySelector(".profile-container").innerHTML = "<p>Photographer not found.</p>";
-return;
-}
+        if (!photographer) {
+            document.querySelector(".profile-container").innerHTML = "<p>Photographer not found.</p>";
+            return;
+        }
 
         // Update text content
         document.getElementById("photographerName").textContent = photographer.name;
