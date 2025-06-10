@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchData() {
-fetch("https://photographers-f0hv.onrender.com")
+fetch("https://photographers-v5ak.onrender.com")
 .then(res => res.json())
 .then(data => {
 photographers = data.photographers;
