@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pixisphere Category Page</title>
+</head>
+<body>
+   <div class="layout"> <!-- Sidebar Filters --> <aside class="sidebar"> <h2>Filters</h2>
+    <label for="citySelect">City</label>
+  <select id="citySelect">
+    <option value="">All Cities</option>
+    <option value="Bengaluru">Bengaluru</option>
+    <option value="Hyderabad">Hyderabad</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Delhi">Delhi</option>
+  </select>
+
+  <label for="priceRange">Price Range (Max)</label>
+  <input type="range" id="priceRange" min="0" max="20000" step="1000" value="20000" />
+  <span id="priceValue">₹20000</span>
+
+  <label for="ratingSelect">Minimum Rating</label>
+  <select id="ratingSelect">
+    <option value="0">All</option>
+    <option value="3">3+</option>
+    <option value="4">4+</option>
+  </select>
+
+  <label>Styles</label>
+  <div class="style-options">
+    <label><input type="checkbox" class="styleCheck" value="Traditional" /> Traditional</label><br />
+    <label><input type="checkbox" class="styleCheck" value="Candid" /> Candid</label><br />
+    <label><input type="checkbox" class="styleCheck" value="Studio" /> Studio</label><br />
+    <label><input type="checkbox" class="styleCheck" value="Outdoor" /> Outdoor</label>
+  </div>
+
+  <label for="sortSelect">Sort By</label>
+  <select id="sortSelect">
+    <option value="">Default</option>
+    <option value="price">Price: Low to High</option>
+    <option value="rating">Rating: High to Low</option>
+    <option value="recent">Recently Added</option>
+  </select>
+</aside>
+
+<!-- Main Content -->
+<main class="container">
+  <h1>Best Photographers</h1>
+
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="Search by name, location, or tag" />
+  </div>
+
+  <div id="photographerGrid" class="grid"></div>
+
+  <button id="loadMoreBtn">Load More</button>
+</main>
+</body>
+</html>
