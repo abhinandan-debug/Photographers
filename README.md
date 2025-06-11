@@ -141,18 +141,7 @@ View the photographer's bio, styles, tags, and pricing.
 Explore their work in the Full Gallery section.
 Read client Reviews.
 Click "Send Inquiry" to open a contact form modal/popup.
-📂 Project Structure (Expected)
-Photographers/
-├── index.html                  # Category Listing Page
-├── profile.html                # Photographer Profile Page (or dynamic content loaded on index.html)
-├── css/
-│   └── style.css               # Main stylesheet
-├── js/
-│   ├── main.js                 # JavaScript for Category Listing page logic (API calls, filters, search, pagination)
-│   └── profile.js              # JavaScript for Photographer Profile page logic (gallery, reviews, inquiry modal)
-│   └── mockApi.js              # (Optional) If you have client-side mock data definition before JSON Server
-├── db.json                     # Mock API data for JSON Server
-└── README.md                   # This file
+
 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
