@@ -158,4 +158,4 @@ Distributed under the MIT License. See the LICENSE file in the repository for mo
 📞 Contact
 Abhinandan Mishra - abhinandanmishra2005@gmail.com
 
-Project Link: https://github.com/abhinandan-debug/Photographers
+Project Link: https://abhinandan-debug.github.io/Photographers/
