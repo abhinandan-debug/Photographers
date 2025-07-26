@@ -7,7 +7,7 @@ async function loadPhotographerProfile() {
     const id = getPhotographerIdFromUrl();
 
     try {
-        const response = await fetch("https://run.mocky.io/v3/47fc1868-cf16-470d-a66e-ae40b15da070");
+        const response = await fetch("https://mocki.io/v1/0f9f5aed-f28d-44b8-a594-721150d670b1");
         const data = await response.json();
         const photographer = data.photographers.find(p => p.id === id);
 
