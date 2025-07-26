@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchData() {
-  fetch("https://run.mocky.io/v3/47fc1868-cf16-470d-a66e-ae40b15da070")
+  fetch("https://mocki.io/v1/0f9f5aed-f28d-44b8-a594-721150d670b1")
     .then(res => res.json())
     .then(data => {
       photographers = data.photographers;
